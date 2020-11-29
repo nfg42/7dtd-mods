@@ -1,0 +1,5 @@
+<config>
+  <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">300</set>
+  <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">1800</set>
+  <set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='TimeStayAfterDeath']/@value">1800</set>
+</config>

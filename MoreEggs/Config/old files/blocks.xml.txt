@@ -1,0 +1,85 @@
+<TotoReworkBalance>
+<!-- Add Toto Rework Generatorbank MaxFuell upgrade -->
+	<set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']/@value">3000</set> <!-- Default 1000 -->
+	<!-- Balance upgrade and scrap value -->
+	<set xpath="/blocks/block[@name='ironBarsCentered']/drop[@event='Harvest' and @name='resourceScrapIron']/@count">10</set>
+	<!--
+    <set xpath="/blocks/block[@name='ironBarsCentered']/property[@class='RepairItems']/property[@name='resourceForgedIron']/@value">2</set>	
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">2</set>	
+    -->
+    <!-- Mining stone bonuses -->
+<!--
+	<set xpath="/blocks/block[@name='terrStone']/drop[@name='resourceIronFragment']/@count">10</set>
+	<append xpath="/blocks/block[@name='terrStone']">
+		<drop event="Destroy" name="resourcePotassiumNitratePowder" count="14" prob="0.1" />
+		<drop event="Destroy" name="resourceScrapLead" count="4" prob="0.1" />
+		<drop event="Destroy" name="resourceCoal" count="16" prob="0.1" />
+		<drop event="Destroy" name="resourceScrapIron" count="16" prob="0.1" />
+		<drop event="Destroy" name="resourceRawDiamond" count="1" prob="0.01"/>
+		<drop event="Destroy" name="resourceGoldNugget" count="1" prob="0.02"/>
+		<drop event="Destroy" name="resourceSilverNugget" count="1" prob="0.04"/>
+	</append>
+-->
+	<!-- Boulder farming -->
+<!--
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">25</set>
+	<set xpath="/blocks/block[@name='rockResource']/drop[@event='Harvest' and @name='resourceIronFragment']/@count">13</set>
+-->
+	<!-- Additional bones from animals and corpses -->
+<!--
+	<set xpath="/blocks/block[@name='goreBlockAnimal']/drop[@event='Destroy' and @name='resourceFemur']/@count">2</set>
+	<set xpath="/blocks/block[@name='goreBlockHumanCorpse']/drop[@event='Destroy' and @name='resourceFemur']/@count">2</set>
+	<set xpath="/blocks/block[@name='goreBlockHumanBones']/drop[@event='Destroy' and @name='resourceFemur']/@count">2</set>
+	<set xpath="/blocks/block[@name='bodyBagBlack']/drop[@event='Harvest' and @name='resourceFemur']/@prob">0.6</set>
+	<set xpath="/blocks/block[@name='bodyBagBlack']/drop[@event='Harvest' and @name='resourceFemur']/@count">2,3</set>
+-->
+	<!-- Tree mods for bonus wood and the chance of a birds nest within the tree -->
+	<append xpath="/blocks/block[@name='treeMountainPine19m']">	
+		<drop event="Destroy" name="resourceFeather" count="2,6" prob="0.35"/>
+		<drop event="Destroy" name="foodEgg" count="2,4" prob="0.2"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMountainPine27m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.75"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.75"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMountainPine31m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.65"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMountainPineDry21m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.65"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.65"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedOak27m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.75"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.75"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedWinterPine19m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.15"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.15"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedWinterPine28m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.75"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.75"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeWinterPine19m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.15"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.15"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeWinterPine28m']">	
+		<drop event="Destroy" name="resourceFeather" count="3,6" prob="0.75"/>
+		<drop event="Destroy" name="foodEgg" count="2,5" prob="0.75"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMountainPine41m']">	
+		<drop event="Destroy" name="resourceFeather" count="4,8" prob="1"/>
+		<drop event="Destroy" name="foodEgg" count="3,6" prob="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='treeMountainPine48m']">	
+		<drop event="Destroy" name="resourceFeather" count="4,8" prob="1"/>
+		<drop event="Destroy" name="foodEgg" count="3,6" prob="1"/>
+	</append>
+	<append xpath="/blocks/block[@name='treePlantedOak41m']">	
+		<drop event="Destroy" name="resourceFeather" count="4,8" prob="1"/>
+		<drop event="Destroy" name="foodEgg" count="3,6" prob="1"/>
+	</append>
+</TotoReworkBalance>

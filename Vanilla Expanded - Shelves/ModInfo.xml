@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="CraftableShelves" />
+		<Description value="Make the capacity of craftable and buyable storage blocks 8x9 and add storage shelves to crafting menu." />
+		<Author value="NFG" />
+		<Version value="1.00" />
+		<!-- Tested with 7 Days to Die Alpha 19.0 -->
+	</ModInfo>
+</xml>

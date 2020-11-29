@@ -1,0 +1,132 @@
+<configs>
+<!--	<append xpath="/quests/quest[@id='tier1_fetch']">
+		<reward type="LootItem" id="questskillbook" ischosen="true" isfixed="true" value="1" />
+		<reward type="LootItem" id="questSchematics" ischosen="true" isfixed="true" value="16" />
+	</append>
+	<append xpath="/quests/quest[@id='tier1_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier1_buried_supplies']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier2_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier2_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier2_hidden_cache']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier2_fetch_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier3_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier3_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier3_hidden_cache']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier3_fetch_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier3_hidden_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier4_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier4_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier4_hidden_cache']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier4_fetch_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier4_hidden_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier5_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier5_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier5_hidden_cache']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier5_fetch_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier5_hidden_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier6_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier6_fetch']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier6_hidden_cache']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+
+	<append xpath="/quests/quest[@id='tier6_fetch_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+	<append xpath="/quests/quest[@id='tier6_hidden_clear']">
+		<reward type="SkillPoints" value="1" />
+	</append>
+-->
+	<append xpath="/quests/quest[@id='quest_tier1complete']">
+		<reward type="SkillPoints" value="3" />
+	</append>
+	<append xpath="/quests/quest[@id='quest_tier2complete']">
+		<reward type="SkillPoints" value="4" />
+	</append>
+	<append xpath="/quests/quest[@id='quest_tier3complete']">
+		<reward type="SkillPoints" value="5" />
+	</append>
+	<append xpath="/quests/quest[@id='quest_tier4complete']">
+		<reward type="SkillPoints" value="6" />
+	</append>
+	<append xpath="/quests/quest[@id='quest_tier5complete']">
+		<reward type="SkillPoints" value="7" />
+	</append>
+	<append xpath="/quests/quest[@id='quest_tier6complete']">
+		<reward type="SkillPoints" value="8" />
+	</append>
+
+<!--
+	<set xpath="/quests/quest[@id='quest_tier6complete']/repeatable">true</set>
+-->
+
+<!--
+	<append xpath="/quests">
+		<quest id="quest_SkillPointReward">
+		<property name="group_name_key" value="quest_SkillPointReward" />
+		<property name="name_key" value="Skill Reward" />
+		<property name="subtitle_key" value="Skill point added" />
+		<property name="description_key" value="Skill point added" />
+		<property name="icon" value="ui_game_symbol_map_bed" />
+		<property name="category_key" value="quest" />
+		<property name="difficulty" value="veryeasy"/>
+		<property name="offer_key" value="You have earned another skill point" />
+		<property name="shareable" value="false" />
+		<reward type="SkillPoints" value="1" />
+		</quest>
+	</append>
+-->
+</configs>

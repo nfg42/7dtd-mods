@@ -1,0 +1,27 @@
+<!-- Xpath code for items.xml for MrDaves-QuestRewarder -->
+
+<configs>
+	<append xpath="/items">
+		<item name="skillbook">
+        	<property name="Extends" value="questMaster"/>
+	        <property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="21"/>
+			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="CustomIcon" value="questMaster"/>
+			<property name="EconomicValue" value="1600"/>
+			<property name="SellableToTrader" value="false"/>
+			<property class="Action0">
+				<property name="Class" value="Quest"/>
+				<property name="Delay" value="0"/>
+				<property name="QuestGiven" value="quest_SkillPointReward"/>
+			</property>
+			<property name="FuelValue" value="2"/>
+			<property name="Weight" value="2"/>
+			<property name="Group" value="Special Items"/>
+			<property name="DescriptionKey" value="qc_ZombieGroupDesc"/>
+			<property name="Stacknumber" value="200"/>
+		</item>
+	</append>
+</configs>

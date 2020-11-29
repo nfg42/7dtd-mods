@@ -1,0 +1,50 @@
+<Configs>
+
+<append xpath="/lootcontainers">
+ <!-- PALLETS -->
+    <lootcontainer id="150" size="8,9" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest">
+    </lootcontainer>
+    <lootcontainer id="151" size="8,9" sound_open="UseActions/campfire_close" sound_close="UseActions/campfire_close">
+    </lootcontainer>
+    <lootcontainer id="152" size="8,9" sound_open="UseActions/close_backpack" sound_close="UseActions/close_backpack">
+    </lootcontainer>   
+    <lootcontainer id="153" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard">
+    </lootcontainer>
+    <lootcontainer id="154" size="8,9" sound_open="UseActions/open_fridge" sound_close="UseActions/close_fridge">
+    </lootcontainer>   
+
+	<!-- BARRELS -->
+	 <lootcontainer id="155" size="8,9" sound_open="UseActions/open_trashcan" sound_close="UseActions/close_trashcan">
+    </lootcontainer>
+  
+	<!-- MEDICAL SUPPLY PILES -->
+  <lootcontainer id="156" size="8,9" sound_open="UseActions/open_garbage" sound_close="UseActions/close_trashcan">
+    </lootcontainer>
+	
+<!-- VENDING MACHINE -->
+<!--	 <lootcontainer id="157" count="0" size="8,9"  sound_open="UseActions/open_vending" sound_close="UseActions/close_vending" >
+    </lootcontainer>
+-->
+<!-- HARDENED CHEST -->
+	 <lootcontainer id="158" count="0" size="8,9"  sound_open="UseActions/open_safe" sound_close="UseActions/close_safe">
+    </lootcontainer>
+	<!-- MEDICINE CABINETS -->
+	 <lootcontainer id="159" count="0" size="8,9"  sound_open="UseActions/open_medicine_cabinet" sound_close="UseActions/close_medicine_cabinet">
+    </lootcontainer>
+	<!-- WATER COOLER/PLASTIC BARRELS -->
+	<lootcontainer id="160" count="0" size="8,9"  sound_open="UseActions/open_cooler" sound_close="UseActions/close_cooler">
+	</lootcontainer>
+    <!-- FILE CABINETS -->
+	<lootcontainer id="161" count="0" size="8,9"  sound_open="UseActions/open_file_cabinet" sound_close="UseActions/close_file_cabinet">
+    </lootcontainer>
+	<!-- SCRAP METAL PILE -->
+	<lootcontainer id="162" count="0" size="8,9"  sound_open="UseActions/open_shopping_cart" sound_close="UseActions/close_shopping_cart">
+    </lootcontainer>
+	
+	<lootcontainer id="163" count="0" size="8,9" sound_open="UseActions/open_toilet" sound_close="UseActions/close_toilet">
+    </lootcontainer>
+
+ 
+</append>
+
+</Configs>

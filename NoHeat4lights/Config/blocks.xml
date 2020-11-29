@@ -1,0 +1,13 @@
+<NoHeat4lights>
+
+<!--Remove Torches from heat map -->
+	<remove xpath="/blocks/block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']" />
+	<remove xpath="/blocks/block[@name='wallTorchLightPlayer']/property[@name='HeatMapTime']" />
+
+	<remove xpath="/blocks/block[@name='candleWallLightPlayer']/property[@name='HeatMapStrength']" />
+	<remove xpath="/blocks/block[@name='candleWallLightPlayer']/property[@name='HeatMapTime']" />
+
+	<remove xpath="/blocks/block[@name='candleTableLightPlayer']/property[@name='HeatMapStrength']" />
+	<remove xpath="/blocks/block[@name='candleTableLightPlayer']/property[@name='HeatMapTime']" />
+
+</NoHeat4lights>

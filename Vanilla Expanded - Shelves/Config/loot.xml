@@ -1,0 +1,80 @@
+<storagesize>
+
+    <!-- wallSafe / deskSafe -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='6']" name="size">8,9</setattribute>
+    <!-- Cabinets and cupboards -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='17']" name="size">8,9</setattribute>
+    <!-- military munitions ammo box -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='40']" name="size">8,9</setattribute>
+	<!-- Nightstands, dressers, and wooden desks -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='42']" name="size">8,9</setattribute>
+    <!-- lockers -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='43']" name="size">8,9</setattribute>
+    <!-- File Cabinets -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='44']" name="size">8,9</setattribute>
+    <!-- Bookcases -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='49']" name="size">8,9</setattribute>
+    <!-- Pillcases -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='51']" name="size">8,9</setattribute>
+    <!-- stove/oven, cooking pots and pans rotten food -->
+<!--
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='11']" name="size">8,9</setattribute>
+-->
+    <!-- Added some missing stuff here. -->
+
+    <!-- metal garbage can-->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='16']" name="size">8,9</setattribute>
+    <!-- metal desk -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='24']" name="size">8,9</setattribute>
+    <!-- frozen or refridgerated food, spoiled food (Helper) -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='47']" name="size">8,9</setattribute>
+    <!-- beer cooler -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='52']" name="size">8,9</setattribute>
+    <!-- cash register-->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='55']" name="size">8,9</setattribute>
+    <!-- Bookstore bookcase -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='60']" name="size">8,9</setattribute>
+    <!-- gas pump loot -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='64']" name="size">8,9</setattribute>
+    <!-- cntMorticianDrawer -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='67']" name="size">8,9</setattribute>
+    <!-- cntClothesRackRoundPants -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='84']" name="size">8,9</setattribute>
+    <!-- cntClothesRackRoundShirts -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='85']" name="size">8,9</setattribute>
+    <!-- cntStoreShelfSingleBottomFood01 -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='86']" name="size">8,9</setattribute>
+    <!-- cntWaterCoolerFull -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='99']" name="size">8,9</setattribute>
+    <!-- cntPillCase -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='106']" name="size">8,9</setattribute>
+    <!-- UtilityCartFull -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='117']" name="size">8,9</setattribute>
+    <!-- cntSodaFountain -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='119']" name="size">8,9</setattribute>
+    <!-- fuel cntBarrelGasOld -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='120']" name="size">8,9</setattribute>
+    <!-- cntRollingToolBoxClosed -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='124']" name="size">8,9</setattribute>
+    <!-- cntToolBoxClosed -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='125']" name="size">8,9</setattribute>
+    <!-- medicine cabinets -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='131']" name="size">8,9</setattribute>
+    <!-- cntGunRack -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='132']" name="size">8,9</setattribute>
+    <!-- cntStoreShelfShoes -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='133']" name="size">8,9</setattribute>
+    <!-- cntBookShelf-->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='136']" name="size">8,9</setattribute>
+    <!-- cntGunRackWallArmor -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='137']" name="size">8,9</setattribute>
+    <!-- cntGunRackWallGuns01 -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='138']" name="size">8,9</setattribute>
+    <!-- cntStoreShelfElectronics -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='140']" name="size">8,9</setattribute>
+    <!-- cntClothesShelfHalfJeans -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='141']" name="size">8,9</setattribute>
+    <!-- cntClothesShelfHalfShirts -->
+    <setattribute xpath="/lootcontainers/lootcontainer[@id='142']" name="size">8,9</setattribute>
+
+ </storagesize>

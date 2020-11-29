@@ -1,0 +1,1 @@
+<set xpath="/windows/window[@name='windowLooting']/panel[@name='header']/label@[name='lootName']/@anchor_right">queue,1,-100</set>

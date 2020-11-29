@@ -1,0 +1,9 @@
+<!-- Xpath code for items.xml for MrDaves-QuestRewarder -->
+
+<configs>
+	<append xpath="/loot">
+        <lootgroup name="questskillbook">
+        	<item name="skillbook"/>
+        </lootgroup>
+	</append>
+</configs>

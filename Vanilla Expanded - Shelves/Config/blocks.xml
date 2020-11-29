@@ -1,0 +1,35 @@
+<configs>
+
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntMedicineCabinetClosed,cntPillCaseClosed</append>
+	<!--Book Shelves-->
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntBookShelfSingleBottomEmpty,cntBookShelfSingleTopEmpty,cntBookShelfDoubleBottomEmpty,cntBookShelfDoubleTopEmpty,cntBookShelfSingleCapTopEmpty,cntBookShelfSingleCapBottomEmpty</append>
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntBookShelfSingleBottomFull01,cntBookShelfSingleBottomFull02,cntBookShelfSingleTopFull01,cntBookShelfSingleTopFull02</append>
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntBookShelfDoubleBottomFull01,cntBookShelfDoubleBottomFull02,cntBookShelfDoubleTopFull01,cntBookShelfDoubleTopFull02</append>
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntBookShelfSingleCapBottomFull01,cntBookShelfSingleCapBottomFull02,cntBookShelfSingleCapTopFull01,cntBookShelfSingleCapTopFull02</append>
+	<!--File Cabinets-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntFileCabinetShortClosed,cntFileCabinetTallClosed</append>
+	<!--Gun Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntGunRackSmallMagazines,cntGunRackSmallArmor,cntGunRackLargeGuns01,cntGunRackLargeGuns02</append>
+	<!--Hardware Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfSingleTopHardware02,cntStoreShelfSingleBottomHardware01,cntStoreShelfSingleBottomHardware02</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfDoubleBottomHardware01,cntStoreShelfDoubleBottomHardware02,cntStoreShelfDoubleBottomHardware03Rags</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfDoubleTopHardware01,cntStoreShelfDoubleTopHardware02Rags</append>
+	<!--Food Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfSingleTopFood01,cntStoreShelfSingleBottomFood01,cntStoreShelfSingleBottomFood02</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfDoubleBottomFood01,cntStoreShelfDoubleBottomFood02,cntStoreShelfDoubleTopFood01</append>
+	<!--Pharma Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfSingleBottomPharmaGoods01,cntStoreShelfSingleBottomPharmaGoods02</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfDoubleBottomPharmaGoods01,cntStoreShelfDoubleBottomPharmaGoods02</append>
+	<!--Electronics Shelves-->
+<!--
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfElectronicsSingleBottomPC,cntStoreShelfElectronicsSingleBottomElectronicsMonitor,cntStoreShelfElectronicsSingleBottomGoodsMisc,cntStoreShelfElectronicsSingleBottomHeadphones,cntStoreShelfElectronicsSingleBottomKeyboard,cntStoreShelfElectronicsSingleBottomLaptopOpen,cntStoreShelfElectronicsSingleBottomLaptopClosed,cntStoreShelfElectronicsSingleBottomSpeaker</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfElectronicsDoubleBottomGoods01,cntStoreShelfElectronicsDoubleBottomGoods02,cntStoreShelfElectronicsDoubleBottomGoods03,cntStoreShelfElectronicsDoubleBottomGoods04</append>
+-->
+	<!--Clothes Racks/Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntClothesRackRoundPants,cntClothesRackRectanglePants,cntClothesShelfStackShirts02,cntStoreShelfSingleTopHardware01</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntClothesShelfHalfJeans01,cntClothesShelfHalfJeans02,cntClothesShelfHalfShirts01,cntClothesShelfHalfShirts02,cntClothesShelfHalfSweaters01,cntClothesShelfStackJeans01,cntClothesShelfStackJeans02,cntClothesShelfStackShirts01</append>
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntClothesRackRoundShirts,cntClothesRackRectangleShirts,cntClothesRackWallPants,cntClothesRackWallLongSleeve,cntClothesRackWallSweater,cntClothesRackWallTShirts</append>
+	<!--Shoe Shelves-->
+	<append xpath="/blocks/block[@name='metalFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntStoreShelfDoubleBottomShoesFull,cntStoreShelfSingleBottomShoesFull,cntStoreShelfDoubleTopShoesFull,cntStoreShelfSingleTopShoesFull</append>
+
+</configs>

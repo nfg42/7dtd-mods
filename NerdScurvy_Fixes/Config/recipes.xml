@@ -1,0 +1,9 @@
+<configs>
+<setattribute xpath="/recipes/recipe[@name='resourceRockSmallBundle']" name="craft_exp_gain">0</setattribute>
+<setattribute xpath="/recipes/recipe[@name='resourceWoodBundle']" name="craft_exp_gain">0</setattribute>
+<setattribute xpath="/recipes/recipe[@name='resourceScrapIronBundle']" name="craft_exp_gain">0</setattribute>
+<setattribute xpath="/recipes/recipe[@name='resourceOilShaleBundle']" name="craft_exp_gain">0</setattribute>
+<setattribute xpath="/recipes/recipe[@name='resourcePotassiumNitratePowderBundle']" name="craft_exp_gain">0</setattribute> 
+<setattribute xpath="/recipes/recipe[@name='resourceLeadBundle']" name="craft_exp_gain">0</setattribute>
+<setattribute xpath="/recipes/recipe[@name='resourceCoalBundle']" name="craft_exp_gain">0</setattribute>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Expanded Storage" />
+		<Description value="Adds new storage options." />
+		<Author value="NFG" />
+		<Version value="1.00" />
+	</ModInfo>
+</xml>

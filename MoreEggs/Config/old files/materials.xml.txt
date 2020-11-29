@@ -1,0 +1,12 @@
+<TotoReworkBalance>
+	<set xpath="/materials/material[@id='Mgravel']/property[@name='stability_glue']/@value">30</set>
+	<set xpath="/materials/material[@id='Msand']/property[@name='stability_glue']/@value">30</set>
+	<set xpath="/materials/material[@id='MresourceWood']/property[@name='Experience']/@value">1.25</set>
+	<set xpath="/materials/material[@id='Mstone']/property[@name='Experience']/@value">1.25</set>
+	<set xpath="/materials/material[@id='MresourceClayLump']/property[@name='Experience']/@value">.90</set>
+	<set xpath="/materials/material[@id='MresourceCoal']/property[@name='Experience']/@value">2.25</set>
+	<set xpath="/materials/material[@id='MresourceIronFragment']/property[@name='Experience']/@value">2.45</set>
+	<set xpath="/materials/material[@id='MresourceOilShale']/property[@name='Experience']/@value">2.95</set>
+	<set xpath="/materials/material[@id='MresourceScrapIron']/property[@name='Experience']/@value">.8</set>
+
+</TotoReworkBalance>
