@@ -6,8 +6,8 @@
 
 	<remove xpath="/blocks/block[@name='candleWallLightPlayer']/property[@name='HeatMapStrength']" />
 	<remove xpath="/blocks/block[@name='candleWallLightPlayer']/property[@name='HeatMapTime']" />
-
+<!-- Uses candle light property
 	<remove xpath="/blocks/block[@name='candleTableLightPlayer']/property[@name='HeatMapStrength']" />
 	<remove xpath="/blocks/block[@name='candleTableLightPlayer']/property[@name='HeatMapTime']" />
-
+-->
 </NoHeat4lights>
