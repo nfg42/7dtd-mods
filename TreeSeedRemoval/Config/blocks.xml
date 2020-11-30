@@ -1,4 +1,4 @@
-<TreeSeedRemoval>
+<config>
 
 	<remove xpath="/blocks/block[@name='treeOakSml01']/drop[@event='Destroy' and @name='treePlantedOak1m']"/>
 	<remove xpath="/blocks/block[@name='treeOakMed01']/drop[@event='Destroy' and @name='treePlantedOak1m']"/>
@@ -13,7 +13,6 @@
 	<remove xpath="/blocks/block[@name='treePlantedOak41m']/drop[@event='Destroy' and @name='treePlantedOak1m']"/>
 -->
 
-	<drop event="Destroy" name="treePlantedMountainPine1m" count="1"/>
 	<remove xpath="/blocks/block[@name='treeJuniper4m']/drop[@event='Destroy' and @name='treePlantedMountainPine1m']"/>
 	<remove xpath="/blocks/block[@name='driftwood']/drop[@event='Destroy' and @name='treePlantedMountainPine1m']"/>
 	<remove xpath="/blocks/block[@name='treeMountainPine12m']/drop[@event='Destroy' and @name='treePlantedMountainPine1m']"/>
@@ -51,4 +50,4 @@
 	<remove xpath="/blocks/block[@name='treePlantedWinterPine28m']/drop[@event='Destroy' and @name='treePlantedWinterPine1m']"/>
 -->
 
-</TreeSeedRemoval>
+</config>
