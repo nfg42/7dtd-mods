@@ -1,0 +1,31 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+cntPlayerFireWoodStack,blocks,Container,,,Stack of Wood
+cntPlayerCementBagStack,blocks,Container,,,Cement Pallet
+cntPlayerBrownBoxes,blocks,Container,,,Pallet of Boxes
+cntPlayerBlueTarp,blocks,Container,,,Covered Pallet
+cntPlayerBrickPile,blocks,Container,,,Pallet of Bricks
+cntPlayerBarrelPlasticSingle00,blocks,Container,,,Plastic Barrel
+cntPlayerBarrelPlasticQuadA,blocks,Container,,,Plastic Barrels
+cntPlayerBarrelGenericQuadA,blocks,Container,,,Rusty Barrels
+cntPlayerBarrelGasQuadA,blocks,Container,,,Gas Barrels
+cntPlayerBarrelGasSingle00,blocks,Container,,,Gas Barrel
+cntPlayerBarrelOilQuadA,blocks,Container,,,Oil Barrels
+cntPlayerBarrelOilSingle00,blocks,Container,,,Oil Barrel
+cntPlayerBarrelAcidQuadA,blocks,Container,,,Green Barrels
+cntPlayerBarrelAcidSingle00,blocks,Container,,,Green Barrel
+cntPlayerBarrelRadiatedQuadA,blocks,Container,,,Yellow Barrels
+cntPlayerBarrelRadiatedSingle00,blocks,Container,,,Yellow Barrel
+
+cntPlayerRetroFridgeVer1Closed,blocks,Container,,,Refrigerator
+cntPlayerFridgeStainlessSteel,blocks,Container,,,Refrigerator
+cntPlayerCoffeeMaker,blocks,Container,,,Coffee Maker
+cntPlayerCoffeeMakerCommercial,blocks,Container,,,Commercial Coffee Maker
+cntPlayerSodaFountain,blocks,Container,,,Soda Fountain
+cntPlayerGasPump,blocks,Container,,,Gas Pump
+cntPlayerWaterCoolerBottle,blocks,Container,,,Water Cooler Bottle
+cntPlayerUtilityCartFull,blocks,Container,,,Utility Cart
+
+
+
+
+

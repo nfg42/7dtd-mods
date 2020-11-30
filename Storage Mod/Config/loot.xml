@@ -18,13 +18,13 @@
     </lootcontainer>
   
 	<!-- MEDICAL SUPPLY PILES -->
-  <lootcontainer id="156" size="8,9" sound_open="UseActions/open_garbage" sound_close="UseActions/close_trashcan">
+  <lootcontainer id="156" size="8,9" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage">
     </lootcontainer>
 	
 <!-- VENDING MACHINE -->
-<!--	 <lootcontainer id="157" count="0" size="8,9"  sound_open="UseActions/open_vending" sound_close="UseActions/close_vending" >
+	 <lootcontainer id="157" count="0" size="8,9"  sound_open="UseActions/open_vending" sound_close="UseActions/close_vending" >
     </lootcontainer>
--->
+
 <!-- HARDENED CHEST -->
 	 <lootcontainer id="158" count="0" size="8,9"  sound_open="UseActions/open_safe" sound_close="UseActions/close_safe">
     </lootcontainer>

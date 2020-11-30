@@ -8,7 +8,8 @@
 	        <property name="Model" value="Entities/OutdoorDecor/modularFireWoodStackAPrefab"/> <property name="Place" value="TowardsPlacerInverted"/>
         	<property name="IsTerrainDecoration" value="true"/>
         	<property name="ImposterExchange" value="imposterBlock" param1="32"/>
-			<property name="LootList" value="151"/>
+			<property name="LootList" value="153"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 		<block name="cntPlayerCementBagStack">
 			<property name="Extends" value="cntStorageGenericInsecure" />
@@ -17,7 +18,8 @@
     	    <property name="Path" value="solid"/>
         	<property name="Model" value="Entities/Industrial/pallet_bags_basePrefab"/>
         	<property name="ImposterExchange" value="imposterBlock" param1="125"/>
-			<property name="LootList" value="152"/>
+			<property name="LootList" value="153"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 		<block name="cntPlayerBrownBoxes">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
@@ -28,6 +30,7 @@
 	        <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
     	    <property name="Path" value="solid"/>
 			<property name="LootList" value="153"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 		<block name="cntPlayerBlueTarp">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
@@ -36,7 +39,8 @@
         	<property name="Model" value="Entities/Industrial/pallet_tarp_basePrefab"/>
         	<property name="ImposterExchange" value="imposterBlock" param1="19"/>
 			<property name="CustomIcon" value="palletBlueTarpBase"/>
-			<property name="LootList" value="154"/>
+			<property name="LootList" value="156"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 		<block name="cntPlayerBrickPile">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
@@ -45,7 +49,8 @@
         	<property name="Model" value="Entities/Industrial/pallet_bricks_basePrefab"/>
         	<property name="ImposterExchange" value="imposterBlock" param1="57"/>
 			<property name="CustomIcon" value="palletBricksBase"/>
-			<property name="LootList" value="154"/>
+			<property name="LootList" value="153"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 
 		<!-- *** BARRELS *** -->
@@ -125,7 +130,7 @@
 		</block>
 -->
 <!-- Misc -->
-		<block name="cntPLayerRetroFridgeVer1Closed">
+		<block name="cntPlayerRetroFridgeVer1Closed">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
         	<property name="Model" value="Appliances/retro_fridge_ver1" param1="main_mesh"/> <property name="Place" value="TowardsPlacerInverted"/>
 			<property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
@@ -138,15 +143,17 @@
         	<property name="MultiBlockDim" value="1,2,1"/>
         	<property name="ImposterExchange" value="imposterBlock" param1="27"/>
         	<property name="IsTerrainDecoration" value="true"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 			<property name="LootList" value="154"/>
 		</block>
-		<block name="cntPLayerFridgeStainlessSteel">
-			<property name="Extends" value="cntPLayerRetroFridgeVer1Closed"/>
+		<block name="cntPlayerFridgeStainlessSteel">
+			<property name="Extends" value="cntPlayerRetroFridgeVer1Closed"/>
         	<property name="Model" value="Appliances/stainless_steel_fridge" param1="main_mesh"/>
 			<property name="CustomIcon" value="cntFridgeStainlessSteel"/>
 			<property name="LootList" value="154"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
-		<block name="cntPLayerCoffeeMaker">
+		<block name="cntPlayerCoffeeMaker">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
         	<property name="Model" value="Entities/Appliances/coffeeMakerPrefab"/>
 			<property name="CustomIcon" value="cntCoffeeMaker"/>
@@ -157,27 +164,29 @@
         	<property name="Path" value="solid"/>
         	<property name="Place" value="TowardsPlacerInverted"/>
         	<property name="Class" value="Loot"/>
-
 			<property name="LootList" value="160"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
-		<block name="cntPLayerCoffeeMakerCommercial">
-			<property name="Extends" value="cntPLayerCoffeeMaker"/>
+		<block name="cntPlayerCoffeeMakerCommercial">
+			<property name="Extends" value="cntPlayerCoffeeMaker"/>
         	<property name="Model" value="Entities/Appliances/commercialCoffeeMakerPrefab"/>
 			<property name="CustomIcon" value="cntCoffeeMakerCommercial"/>
 			<property name="LootList" value="160"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 
-		<block name="cntPLayerSodaFountain">
-			<property name="Extends" value="cntPLayerCoffeeMaker"/>
+		<block name="cntPlayerSodaFountain">
+			<property name="Extends" value="cntPlayerCoffeeMaker"/>
         	<property name="Model" value="Entities/Electrical/sodaFountainPrefab"/>
 			<property name="CustomIcon" value="cntSodaFountain"/>
 			<property name="LootList" value="160"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 
-		<block name="cntPLayerGasPump">
+		<block name="cntPlayerGasPump">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
 			<property name="CustomIcon" value="cntGasPump"/>
-			<property name="LootList" value="150"/>
+			<property name="LootList" value="157"/>
         	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
 	        <property name="Mesh" value="models"/>
         	<property name="Path" value="solid"/>
@@ -186,16 +195,18 @@
         	<property name="MultiBlockDim" value="1,2,1"/>
         	<property name="ImposterExchange" value="imposterDontBlockCTRPlate" param1="90"/>
         	<property name="IsTerrainDecoration" value="true"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
-		<block name="cntPLayerWaterCoolerBottle">
+		<block name="cntPlayerWaterCoolerBottle">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
 			<property name="CustomIcon" value="cntWaterCoolerBottle"/>
 			<property name="LootList" value="160"/>
         	<property name="Shape" value="ModelEntity"/>
 	        <property name="Model" value="#Entities/LootContainers?water_cooler_bottlePrefab.prefab"/>
         	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
-		<block name="cntPLayerUtilityCartFull">
+		<block name="cntPlayerUtilityCartFull">
 			<property name="Extends" value="cntStorageGenericInsecure"/>
 			<property name="CustomIcon" value="cntUtilityCartFull"/>
 			<property name="LootList" value="156"/>
@@ -204,6 +215,7 @@
         	<property name="Model" value="#Entities/LootContainers?utilityCartFullPrefab.prefab"/>
         	<property name="Path" value="solid"/>
         	<property name="IsDecoration" value="true"/>
+        	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
 	</append>
 <!-- Todo List?
@@ -280,7 +292,7 @@ palletEmptypalletEmptyStack
 <!-- Barrels Not Done
 	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPlayerBarrelPlasticSingle00,cntPlayerBarrelPlasticQuadA,cntPlayerBarrelGenericQuadA,cntPlayerBarrelGasQuadA,cntPlayerBarrelGasSingle00,cntPlayerBarrelOilQuadA,cntPlayerBarrelOilSingle00,cntPlayerBarrelAcidQuadA,cntPlayerBarrelAcidSingle00,cntPlayerBarrelRadiatedQuadA,cntPlayerBarrelRadiatedSingle00,cntPlayerBarrelWoodVert,cntPlayerBarrelWoodHor,cntPlayerBarrelWoodSet</append>
 -->
-	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPLayerRetroFridgeVer1Closed,cntPLayerFridgeStainlessSteel,cntPLayerCoffeeMaker,cntPLayerCoffeeMakerCommercial,cntPLayerSodaFountain,cntPLayerGasPump,cntPLayerWaterCoolerBottle</append>
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPlayerRetroFridgeVer1Closed,cntPlayerFridgeStainlessSteel,cntPlayerCoffeeMaker,cntPlayerCoffeeMakerCommercial,cntPlayerSodaFountain,cntPlayerGasPump,cntPlayerWaterCoolerBottle,cntPlayerUtilityCartFull</append>
 
 
 
