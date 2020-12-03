@@ -25,7 +25,9 @@ cntPlayerGasPump,blocks,Container,,,Gas Pump
 cntPlayerWaterCoolerBottle,blocks,Container,,,Water Cooler Bottle
 cntPlayerUtilityCartFull,blocks,Container,,,Utility Cart
 
-
-
+cntPlayerFreezerBeveragesMiddleFullClosed,blocks,Container,,,Beverage Freezer
+cntPlayerFreezerBeveragesStandaloneFullClosed,blocks,Container,,,Beverage Freezer
+cntPlayerFreezerGroceriesMiddleFullClosed,blocks,Container,,,Food Freezer
+cntPlayerFreezerGroceriesMiddleFullClosed2,blocks,Container,,,Food Freezer
 
 

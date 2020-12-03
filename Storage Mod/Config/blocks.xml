@@ -217,7 +217,42 @@
         	<property name="IsDecoration" value="true"/>
         	<property name="DescriptionKey" value="cntStorageGeneric"/>
 		</block>
-	</append>
+		
+<block name="cntPlayerFreezerBeveragesMiddleFullClosed">
+			<property name="Extends" value="cntStorageGenericInsecure"/>
+			<property name="CustomIcon" value="cntFreezerBeveragesMiddleFullClosed"/>
+        	<property name="Shape" value="ModelEntity"/>
+        	<property name="Model" value="Entities/Commercial/freezer_beverage_fullPrefab"/><property name="Place" value="TowardsPlacer"/>
+        	<property name="MultiBlockDim" value="1,3,1"/><property name="DisplayType" value="blockMulti"/>
+        	<property name="ModelOffset" value="0,0,0"/>
+        	<property name="Group" value="Decor/Miscellaneous"/>
+        	<property name="DescriptionKey" value="refrigeratorGroupDesc"/>
+        	<property name="FilterTags" value="floot,ffurniture"/>
+        	<property name="Path" value="solid"/>
+        	<property name="Class" value="Loot"/>
+        	<property name="IsDecoration" value="true"/>
+	<property name="LootList" value="154"/>
+</block>
+<block name="cntPlayerFreezerBeveragesStandaloneFullClosed">
+	<property name="Extends" value="cntPlayerFreezerBeveragesMiddleFullClosed"/>
+	<property name="Model" value="Entities/Commercial/freezer_Beverage_Standalone_FullPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="154"/>
+</block>
+<block name="cntPlayerFreezerGroceriesMiddleFullClosed">
+	<property name="Extends" value="cntPlayerFreezerBeveragesMiddleFullClosed"/>
+	<property name="Model" value="Entities/Commercial/freezer_store_fullPrefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="154"/>
+</block>
+<block name="cntPlayerFreezerGroceriesMiddleFullClosed2">
+	<property name="Extends" value="cntPlayerFreezerBeveragesMiddleFullClosed"/>
+	<property name="Model" value="Entities/Commercial/freezer_store_full_2Prefab"/>
+	<property name="Class" value="Loot"/>
+	<property name="LootList" value="154"/>
+</block>
+
+</append>
 <!-- Todo List?
 
 cntJanitorCartFull
@@ -292,7 +327,7 @@ palletEmptypalletEmptyStack
 <!-- Barrels Not Done
 	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPlayerBarrelPlasticSingle00,cntPlayerBarrelPlasticQuadA,cntPlayerBarrelGenericQuadA,cntPlayerBarrelGasQuadA,cntPlayerBarrelGasSingle00,cntPlayerBarrelOilQuadA,cntPlayerBarrelOilSingle00,cntPlayerBarrelAcidQuadA,cntPlayerBarrelAcidSingle00,cntPlayerBarrelRadiatedQuadA,cntPlayerBarrelRadiatedSingle00,cntPlayerBarrelWoodVert,cntPlayerBarrelWoodHor,cntPlayerBarrelWoodSet</append>
 -->
-	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPlayerRetroFridgeVer1Closed,cntPlayerFridgeStainlessSteel,cntPlayerCoffeeMaker,cntPlayerCoffeeMakerCommercial,cntPlayerSodaFountain,cntPlayerGasPump,cntPlayerWaterCoolerBottle,cntPlayerUtilityCartFull</append>
+	<append xpath="/blocks/block[@name='cntWoodFurnitureBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,cntPlayerRetroFridgeVer1Closed,cntPlayerFridgeStainlessSteel,cntPlayerCoffeeMaker,cntPlayerCoffeeMakerCommercial,cntPlayerSodaFountain,cntPlayerGasPump,cntPlayerWaterCoolerBottle,cntPlayerUtilityCartFull,cntPlayerFreezerBeveragesMiddleFullClosed,cntPlayerFreezerBeveragesStandaloneFullClosed,cntPlayerFreezerGroceriesMiddleFullClosed,cntPlayerFreezerGroceriesMiddleFullClosed2</append>
 
 
 
